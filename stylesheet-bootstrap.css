@@ -1,0 +1,44 @@
+div.visible-lg{
+  text-decoration: none;
+  font-size: 2rem;
+  color: skyblue;
+  background-image: url('');
+  width: inherit;
+  height: inherit;
+  border: yellow solid 2px;
+  padding: 4px;
+  align-items: center;
+  align-content: center;
+  background-color: #ccc;
+}
+
+h1.head{
+  align-items: center;
+  text-align: center;
+  background-color: skyblue;
+  border: green 3px solid;
+  border-radius: 5px;
+  margin: 0;
+  padding: 15px;
+  font-family: 'Comic Sans MS';
+}
+
+div.image_ball{
+  width: 5%;
+  height: 5%;
+}
+
+td img.image_ball{
+  width: 2em;
+  height: 2em;
+  transition: 2s ease;
+}
+
+td img.image_ball:hover{
+  transform: translate(100%, 0px);
+}
+
+tr.table_last_row{
+  color: red;
+  text-decoration: underline;
+}
