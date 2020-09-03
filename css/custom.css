@@ -1,0 +1,33 @@
+.jumbotron-img{
+  opacity: 0.7;
+  width: 100%;
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.me-img{
+  width: 30%;
+  height: 100%;
+  opacity: 1;
+}
+
+.background-color-transition{
+  transition: 2s background-color ease;
+}
+
+.background-color-transition:hover{
+  background-color: rgb(2,0,36, 90);
+}
+
+img[alt='logos']{
+  width: 5rem;
+  height: 5rem;
+}
+
+.list-boi{
+position: absolute;
+border-left: 1px solid rgba(0,0,0,.125);
+height: 50px;
+top:0px;
+left:54px;
+}
