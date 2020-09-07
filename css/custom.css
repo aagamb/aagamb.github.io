@@ -1,0 +1,31 @@
+
+.background-color-transition{
+  transition: 0.7s background-color ease;
+}
+
+.background-color-transition:hover{
+  background-color: #bcd1e969;
+}
+
+img[alt='logos']{
+  width: 5rem;
+  height: 5rem;
+}
+
+.list-boi{
+position: absolute;
+border-left: 1px solid rgba(0,0,0,.125);
+height: 50px;
+top:0px;
+left:54px;
+}
+
+.jumbotron{
+  text-align: center;
+}
+
+
+
+.social-media-button{
+  height: 4rem;
+}
