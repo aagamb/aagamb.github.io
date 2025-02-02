@@ -1,0 +1,116 @@
+/* styles.css */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; /* Light beige background */
+    color: #333;
+}
+
+nav {
+    background: #ddd;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.intro {
+    text-align: center;
+}
+
+.exp-card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    max-width: 600px;
+}
+
+.exp-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.exp-details {
+    text-align: left;
+    flex: 1;
+}
+
+.position {
+    font-weight: 300;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.skill-list span {
+    display: inline-block;
+    background: #eee;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .exp-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .exp-logo {
+        margin-bottom: 10px;
+    }
+
+    .exp-details {
+        text-align: center;
+    }
+}
+
